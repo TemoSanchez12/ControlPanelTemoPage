@@ -50,7 +50,7 @@ const PostItem = ({ post, onSetEditablePost, onDeletePost }) => {
       <div className='w-2/5'>
         <img
           className='h-full object-cover'
-          src={`https://res.cloudinary.com/dty1jkamt/${post.image}`}
+          src={`https://res.cloudinary.com/batemo12/${post.image}`}
           alt={post.plataform}
         />
       </div>

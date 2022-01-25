@@ -141,7 +141,7 @@ const EditPostForm = ({ post, onClose, onSaveEditPost }) => {
             <div className='w-1/2'>
               <p className='mr-4 mb-4 font-bold text-xl'>Old image</p>
               <img
-                src={`https://res.cloudinary.com/dty1jkamt/${post.image}`}
+                src={`https://res.cloudinary.com/batemo12/${post.image}`}
                 alt={post.plataform}
               />
             </div>{' '}

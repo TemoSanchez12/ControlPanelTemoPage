@@ -182,7 +182,7 @@ const EditWorkForm = ({ work, onClose, onSaveEdit }) => {
             <div className='w-1/2'>
               <p className='mr-4 mb-4 font-bold text-xl'>Old image</p>
               <img
-                src={`https://res.cloudinary.com/dty1jkamt/${work.image}`}
+                src={`https://res.cloudinary.com/batemo12/${work.image}`}
                 alt={work.name}
               />
             </div>{' '}

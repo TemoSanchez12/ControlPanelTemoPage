@@ -11,7 +11,7 @@ const WorkItem = ({ work, onSetEditableWork, onDeleteWork }) => {
       <div className='w-2/5'>
         <img
           className='h-full object-cover'
-          src={`https://res.cloudinary.com/dty1jkamt/${work.image}`}
+          src={`https://res.cloudinary.com/batemo12/${work.image}`}
           alt={work.name}
         />
       </div>
